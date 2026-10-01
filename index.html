@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="자기PR 웹 이력서 레이아웃 프로토타입">
+    <meta name="theme-color" content="#171816">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171816'/%3E%3Cpath d='M15 45 29 17h7l13 28h-9l-2-6H26l-3 6Zm14-13h7l-3-8Z' fill='%23dcff38'/%3E%3C/svg%3E">
+    <title>안효정 — Self PR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="resume-shell">
+      <aside class="sidebar" aria-label="프로필과 섹션 내비게이션">
+        <div class="sidebar__top">
+          <a class="monogram" href="#summary" aria-label="첫 섹션으로 이동">정보디자인<span aria-hidden="true">.</span></a>
+          <span class="edition">SELF PR / 2026</span>
+        </div>
+        <div class="identity">
+          <p class="eyebrow">PRODUCT MANAGER ·</br> USER THINKER</p>
+          <h1>안효정</h1>
+          <p class="tagline">사용자의 입장에서 문제를 고려하는 기획자입니다.</p>
+        </div>
+        <nav class="section-nav" aria-label="이력서 섹션">
+          <a class="is-active" href="#summary"><span>01</span>Summary</a>
+          <a href="#projects"><span>02</span>Projects</a>
+          <a href="#skills"><span>03</span>Skills</a>
+          <a href="#how-i-work"><span>04</span>What's Next</a>
+          <a href="#contact"><span>05</span>Contact</a>
+        </nav>
+        <div class="sidebar__bottom">
+          <span class="status-dot" aria-hidden="true"></span>
+          <p>문화콘텐츠학과 &amp; 디지털미디어학과<br>202221785 안효정</p>
+        </div>
+      </aside>
+
+      <main class="main-panel" id="main-content" tabindex="-1">
+        <div class="main-panel__inner">
+          <section class="placeholder-section" id="summary" aria-labelledby="summary-title">
+            <div class="section-content summary-content">
+              <header class="summary-heading">
+                <span class="summary-kicker">SUMMARY</span>
+                <h2 id="summary-title"><span class="summary-heading__lead">Product Manager who connects</span><br><strong>Users, Technology &amp; People</strong></h2>
+                <p>기획을 중심으로 사용자 경험을 설계하고,<br>개발·디자인을 이해하며 팀의 아이디어를 실제 결과물로 연결합니다.</p>
+              </header>
+
+              <div class="summary-visuals">
+                <section class="spectrum" aria-labelledby="spectrum-title">
+                  <header class="summary-visuals__heading">
+                    <div>
+                      <span>01 · ROLE RANGE</span>
+                      <h3 id="spectrum-title">SKILL SPECTRUM</h3>
+                    </div>
+                    <p>What I can lead, build and collaborate on</p>
+                  </header>
+
+                  <ol class="spectrum-list">
+                    <li class="spectrum-item spectrum-item--planning">
+                      <div class="spectrum-item__meta"><strong>Planning</strong><b>MANAGE &amp; COLLABORATE</b></div>
+                      <div class="spectrum-track" aria-hidden="true"><i></i></div>
+                      <p>Problem Definition · Service Planning · User Flow</p>
+                    </li>
+                    <li class="spectrum-item spectrum-item--ux">
+                      <div class="spectrum-item__meta"><strong>UX & Development</strong><b>DESIGN &amp; BUILD</b></div>
+                      <div class="spectrum-track" aria-hidden="true"><i></i></div>
+                      <p>Interaction · User Test · Prototype</p>
+                    </li>
+                    <li class="spectrum-item spectrum-item--design">
+                      <div class="spectrum-item__meta"><strong>Design</strong><b>CREATE &amp; COMMUNICATE</b></div>
+                      <div class="spectrum-track" aria-hidden="true"><i></i></div>
+                      <p>Figma · Adobe Tools</p>
+                    </li>
+                    <li class="spectrum-item spectrum-item--data">
+                      <div class="spectrum-item__meta"><strong>Insight & Data</strong><b>ANALYZE &amp; INTERPRET</b></div>
+                      <div class="spectrum-track" aria-hidden="true"><i></i></div>
+                      <p>Python · ML Basics</p>
+                    </li>
+                  </ol>
+                </section>
+
+                <section class="planning-profile" aria-labelledby="profile-title">
+                  <header class="summary-visuals__heading">
+                    <div>
+                      <span>02 · EXPERIENCE MAP</span>
+                      <h3 id="profile-title">EXPERIENCE POSITIONING</h3>
+                    </div>
+                    <p>Where my experiences have taken me</p>
+                  </header>
+
+                  <figure class="experience-map" aria-label="사람과 커뮤니케이션에서 제품과 기술까지, 기획에서 실행까지의 경험 포지셔닝 맵">
+                    <div class="experience-axis-label experience-axis-label--top"><b>PLAN &amp; SHAPE</b><span>방향을 만들고 구조화</span></div>
+                    <div class="experience-axis-label experience-axis-label--bottom"><b>RUN &amp; DELIVER</b><span>직접 실행하고 완성</span></div>
+                    <div class="experience-axis-label experience-axis-label--left"><b>PEOPLE &amp; COMMUNICATION</b><span>사람 · 고객 · 협업</span></div>
+                    <div class="experience-axis-label experience-axis-label--right"><b>PRODUCT &amp; TECHNOLOGY</b><span>서비스 · UX · 구현</span></div>
+
+                    <div class="experience-map__plot">
+                      <i class="experience-axis experience-axis--horizontal" aria-hidden="true"></i>
+                      <i class="experience-axis experience-axis--vertical" aria-hidden="true"></i>
+                      <i class="experience-origin" aria-hidden="true"></i>
+
+                      <div class="experience-point experience-point--project experience-point--footfall" tabindex="0" aria-label="Footfall, Planning and Build">
+                        <i aria-hidden="true"></i><span><b>Footfall</b><small>PLANNING + BUILD</small></span>
+                      </div>
+                      <div class="experience-point experience-point--project experience-point--cooked" tabindex="0" aria-label="We're Cooked, UX and Interaction">
+                        <i aria-hidden="true"></i><span><b>We’re Cooked</b><small>UX + INTERACTION</small></span>
+                      </div>
+                      <div class="experience-point experience-point--project experience-point--tedx" tabindex="0" aria-label="TEDxAjouU, Coordination and Execution">
+                        <i aria-hidden="true"></i><span><b>TEDxAjouU</b><small>COORDINATION + EXECUTION</small></span>
+                      </div>
+                      <div class="experience-point experience-point--project experience-point--photo" tabindex="0" aria-label="Photo Club A.SA, Leadership and Operation">
+                        <i aria-hidden="true"></i><span><b>Photo Club A.SA</b><small>LEADERSHIP + OPERATION</small></span>
+                      </div>
+                      <div class="experience-point experience-point--extra experience-point--google" tabindex="0" aria-label="Google Student Ambassador, 2026 ongoing, Marketing and Collaboration">
+                        <i aria-hidden="true"></i><span><b>Google Student<br>Ambassador</b><em>2026 · ONGOING</em><small>MARKETING + COLLABORATION</small></span>
+                      </div>
+                      <div class="experience-point experience-point--extra experience-point--starbucks" tabindex="0" aria-label="Starbucks, Customer and Operation">
+                        <i aria-hidden="true"></i><span><b>Starbucks</b><small>CUSTOMER + OPERATION</small></span>
+                      </div>
+                      <div class="experience-point experience-point--extra experience-point--caribbean" tabindex="0" aria-label="Caribbean Bay, Customer and Field Operation">
+                        <i aria-hidden="true"></i><span><b>Caribbean Bay</b><small>CUSTOMER + FIELD OPERATION</small></span>
+                      </div>
+                    </div>
+
+                  </figure>
+                </section>
+              </div>
+
+              <div class="summary-conclusion">
+                <span>DEFINE THE PROBLEM</span><i></i><span>DESIGN THE EXPERIENCE</span><i></i><span>CONNECT THE TEAM</span><i></i><strong>BUILD THE RESULT</strong>
+              </div>
+            </div>
+          </section>
+
+          <section class="placeholder-section" id="projects" aria-labelledby="projects-title">
+            <div class="section-content projects-content">
+              <header class="projects-heading">
+                <span class="projects-kicker">PROJECTS</span>
+                <h2 id="projects-title">4 Projects, <strong>4 Ways I Work</strong></h2>
+                <p>기획을 중심으로 UX, 개발, 협업, 운영의 경험을 연결해왔습니다.</p>
+              </header>
+
+              <div class="project-orbit" aria-label="PLANNING을 중심으로 한 4개 프로젝트 인포그래픽">
+                <i class="project-connector project-connector--nw" aria-hidden="true"></i>
+                <i class="project-connector project-connector--ne" aria-hidden="true"></i>
+                <i class="project-connector project-connector--sw" aria-hidden="true"></i>
+                <i class="project-connector project-connector--se" aria-hidden="true"></i>
+
+                <article class="project-node project-node--footfall" tabindex="0" aria-expanded="false">
+                  <div class="project-overview" aria-hidden="false">
+                    <div class="project-node__top"><b>BUILD</b></div>
+                    <div class="project-mini project-mini--flow" aria-label="문제 정의, 구현, 사용자 테스트, UX 개선 순서">
+                      <span>DEFINE</span><i></i><span>BUILD</span><i></i><span>TEST</span><i></i><span>IMPROVE</span>
+                    </div>
+                    <h3>Footfall</h3>
+                    <strong class="project-node__definition">여행 기록 서비스 기획·개발</strong>
+                    <p class="project-node__result">직접 구현 → 테스트 → 개선</p>
+                    <p class="project-node__summary">사용자 테스트 기반 UX 개선</p>
+                  </div>
+                  <div class="project-detail" aria-hidden="true">
+                    <header class="project-detail__header"><b>BUILD</b><h3>Footfall</h3><strong>여행 기록 서비스 기획·개발</strong></header>
+                    <div class="project-star">
+                      <section><b>SITUATION</b><p>기존 여행 플랫폼이 인기 관광지와 별점 중심으로 정보를 제공해, 개인에게 의미 있는 장소와 경험을 기록하기 어렵다는 문제에서 시작했습니다.</p></section>
+                      <section><b>TASK</b><p>사용자가 자신만의 장소를 기록하고 공유할 수 있는 지도 기반 여행 경험 서비스를 기획하고 실제 웹서비스로 구현했습니다.</p></section>
+                      <section><b>ACTION</b><p>서비스 구조와 주요 기능을 기획하고 React와 Firebase로 직접 구현했습니다. 사용자 테스트에서 발견한 현위치 표시와 장소 추가 흐름을 개선했습니다.</p></section>
+                      <section><b>RESULT</b><p>기획부터 구현, 테스트, 개선까지 전 과정을 연결했고 성과발표회에서 실제 출시를 희망한다는 사용자 피드백을 확인했습니다.</p></section>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project-node project-node--cooked" tabindex="0" aria-expanded="false">
+                  <div class="project-overview" aria-hidden="false">
+                    <div class="project-node__top"><b>EXPERIENCE</b></div>
+                    <div class="project-mini project-mini--journey" aria-label="캐릭터 선택, 재료 수집, 요리, 결과 순서">
+                      <span>SELECT</span><i></i><span>COLLECT</span><i></i><span>COOK</span><i></i><span>FEEDBACK</span>
+                    </div>
+                    <h3>We're Cooked</h3>
+                    <strong class="project-node__definition">요리 게임 UX·인터랙션 설계</strong>
+                    <p class="project-node__result">행동 흐름을 플레이 경험으로 연결</p>
+                    <p class="project-node__summary">사용자 흐름 및 인터랙션 설계</p>
+                  </div>
+                  <div class="project-detail" aria-hidden="true">
+                    <header class="project-detail__header"><b>EXPERIENCE</b><h3>We're Cooked</h3><strong>요리 게임 UX·인터랙션 설계</strong></header>
+                    <div class="project-star">
+                      <section><b>SITUATION</b><p>3인 팀으로 Unity 기반 요리 게임을 제작하며 여러 게임 장면과 기능을 하나의 플레이 경험으로 연결해야 했습니다.</p></section>
+                      <section><b>TASK</b><p>사용자가 게임의 목표와 다음 행동을 자연스럽게 이해할 수 있도록 사용자 인터랙션과 UX 흐름을 담당했습니다.</p></section>
+                      <section><b>ACTION</b><p>캐릭터 선택, 시장에서의 재료 수집, 조리 과정 등 주요 사용자 흐름과 인터랙션을 설계하고 구현 과정에 참여했습니다.</p></section>
+                      <section><b>RESULT</b><p>분리된 게임 기능을 행동 흐름으로 연결하며 UX 설계와 개발이 실제 플레이 경험으로 이어지는 과정을 경험했습니다.</p></section>
+                    </div>
+                  </div>
+                </article>
+
+                <div class="project-hub" aria-label="중심 역할: Planning">
+                  <span>CORE ROLE</span>
+                  <strong>PLANNING</strong>
+                  <small>Define · Connect · Build</small>
+                </div>
+
+                <article class="project-node project-node--photo" tabindex="0" aria-expanded="false">
+                  <div class="project-overview" aria-hidden="false">
+                    <div class="project-node__top"><b>LEAD</b></div>
+                    <div class="project-mini project-mini--stages" aria-label="활동 중단, 운영 재정비, 활동 활성화 순서">
+                      <span>STOPPED</span><i>→</i><span>REBUILD</span><i>→</i><strong>ACTIVATE</strong>
+                    </div>
+                    <h3>Photo Club A.SA</h3>
+                    <strong class="project-node__definition">사진동아리 활동 재정비·운영</strong>
+                    <p class="project-node__result">멈춘 활동을 다시 작동하게 만든 운영</p>
+                    <p class="project-node__summary">암실 재가동 · 전시 · 부스 운영</p>
+                  </div>
+                  <div class="project-detail" aria-hidden="true">
+                    <header class="project-detail__header"><b>LEAD</b><h3>Photo Club A.SA</h3><strong>사진동아리 활동 재정비·운영</strong></header>
+                    <div class="project-star">
+                      <section><b>SITUATION</b><p>코로나 이후 동아리의 일부 활동과 암실 운영이 중단된 상태였습니다.</p></section>
+                      <section><b>TASK</b><p>회장으로서 구성원들이 다시 사진 활동에 참여할 수 있도록 기존 활동과 운영 환경을 재정비해야 했습니다.</p></section>
+                      <section><b>ACTION</b><p>중단됐던 암실을 다시 운영하고 정기 전시와 교내 행사 부스를 기획·운영해 구성원이 실제로 참여할 활동을 만들었습니다.</p></section>
+                      <section><b>RESULT</b><p>멈춰 있던 활동을 다시 작동시키며 조직 운영과 구성원 참여를 이끄는 리더십을 경험했습니다.</p></section>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project-node project-node--tedx" tabindex="0" aria-expanded="false">
+                  <div class="project-overview" aria-hidden="false">
+                    <div class="project-node__top"><b>COLLABORATE</b></div>
+                    <div class="project-mini project-mini--constraints" aria-label="예산, 공간, 모객 제약을 조율하여 행사 실행">
+                      <div><span>BUDGET</span><span>SPACE</span><span>AUDIENCE</span></div>
+                      <i>↓</i><strong>COORDINATION → EVENT</strong>
+                    </div>
+                    <h3>TEDxAjouU</h3>
+                    <strong class="project-node__definition">학생 참여형 야외 세션 기획·운영</strong>
+                    <p class="project-node__result">제약을 조율해 실행 가능한 행사로 전환</p>
+                    <p class="project-node__summary">예산·모객 제약 속 협업과 실행</p>
+                  </div>
+                  <div class="project-detail" aria-hidden="true">
+                    <header class="project-detail__header"><b>COLLABORATE</b><h3>TEDxAjouU</h3><strong>학생 참여형 야외 세션 기획·운영</strong></header>
+                    <div class="project-star">
+                      <section><b>SITUATION</b><p>학생들의 실패 경험을 나누는 야외 세션을 기획했지만 예산 부족과 참여 인원 예측의 어려움으로 실행 여부에 대한 의견이 갈렸습니다.</p></section>
+                      <section><b>TASK</b><p>행사의 취지는 유지하면서 제한된 예산과 모객 문제를 해결할 실행 방안을 만들어야 했습니다.</p></section>
+                      <section><b>ACTION</b><p>행사 취지를 다시 정리하고 교내 밴드와 공연 기회·장비 지원을 교환했습니다. 기업 간식 협찬과 참여 이벤트도 활용했습니다.</p></section>
+                      <section><b>RESULT</b><p>제한된 자원 안에서 야외 세션을 운영하며 서로 다른 이해관계와 제약조건을 실행 가능한 형태로 전환했습니다.</p></section>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="placeholder-section" id="skills" aria-labelledby="skills-title">
+            <div class="section-content skills-content">
+              <header class="skills-heading">
+                <span class="skills-kicker">SKILLS</span>
+                <h2 id="skills-title">Collaboration <strong>Range</strong></h2>
+                <p>기획을 중심으로 직접 주도하고, 만들고, 이해하며 협업할 수 있는 역량을 시각화했습니다.</p>
+                <small class="skills-scale-note">Bubble size reflects my experience and confidence. <span>버블 크기는 경험도와 개인적으로 느끼는 익숙함을 기준으로 표현했습니다.</span></small>
+              </header>
+
+              <div class="bubble-map" aria-label="Planning, UX and Development, Design, Insight and Data의 네 가지 버블 클러스터로 구성한 역량 지도">
+                <section class="bubble-cluster bubble-cluster--planning" aria-labelledby="planning-cluster-title">
+                  <header class="bubble-cluster__heading">
+                    <h3 id="planning-cluster-title">Planning</h3>
+                    <p>DEFINE · STRUCTURE · LEAD</p>
+                  </header>
+                  <ul class="bubble-cluster__field">
+                    <li class="skill-bubble bubble--planning bubble--planning-1 bubble--xxl"><span>Problem<br>Definition</span></li>
+                    <li class="skill-bubble bubble--planning bubble--planning-2 bubble--xxl"><span>Service<br>Planning</span></li>
+                    <li class="skill-bubble bubble--planning bubble--planning-3 bubble--xl"><span>User Flow</span></li>
+                    <li class="skill-bubble bubble--planning bubble--planning-4 bubble--xl"><span>User Testing</span></li>
+                    <li class="skill-bubble bubble--planning bubble--planning-5 bubble--sm"><span>Requirement<br>Structuring</span></li>
+                  </ul>
+                </section>
+
+                <section class="bubble-cluster bubble-cluster--ux" aria-labelledby="ux-cluster-title">
+                  <header class="bubble-cluster__heading">
+                    <h3 id="ux-cluster-title">UX &amp; Development</h3>
+                    <p>DESIGN · BUILD · TEST</p>
+                  </header>
+                  <ul class="bubble-cluster__field">
+                    <li class="skill-bubble bubble--ux bubble--ux-1 bubble--xl"><span>Code<br>Understanding</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-2 bubble--xl"><span>Interaction<br>Design</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-3 bubble--xl"><span>Prototype</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-4 bubble--md"><span>React</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-5 bubble--md"><span>Firebase</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-6 bubble--md"><span>GitHub</span></li>
+                    <li class="skill-bubble bubble--ux bubble--ux-7 bubble--sm"><span>Unity</span></li>
+                  </ul>
+                </section>
+
+                <section class="bubble-cluster bubble-cluster--design" aria-labelledby="design-cluster-title">
+                  <header class="bubble-cluster__heading">
+                    <h3 id="design-cluster-title">Design</h3>
+                    <p>VISUALIZE · COMMUNICATE</p>
+                  </header>
+                  <ul class="bubble-cluster__field">
+                    <li class="skill-bubble bubble--design bubble--design-1 bubble--xl"><span>Visual<br>Communication</span></li>
+                    <li class="skill-bubble bubble--design bubble--design-2 bubble--sm"><span>Figma</span></li>
+                    <li class="skill-bubble bubble--design bubble--design-3 bubble--sm"><span>Photoshop</span></li>
+                    <li class="skill-bubble bubble--design bubble--design-4 bubble--sm"><span>Illustrator</span></li>
+                    <li class="skill-bubble bubble--design bubble--design-5 bubble--sm"><span>Lightroom</span></li>
+                  </ul>
+                </section>
+
+                <section class="bubble-cluster bubble-cluster--data" aria-labelledby="data-cluster-title">
+                  <header class="bubble-cluster__heading">
+                    <h3 id="data-cluster-title">Insight &amp; Data</h3>
+                    <p>ANALYZE · INTERPRET</p>
+                  </header>
+                  <ul class="bubble-cluster__field">
+                    <li class="skill-bubble bubble--data bubble--data-1 bubble--xl"><span>User<br>Perspective</span></li>
+                    <li class="skill-bubble bubble--data bubble--data-2 bubble--lg"><span>Data<br>Interpretation</span></li>
+                    <li class="skill-bubble skill-bubble--cert bubble--data bubble--data-3 bubble--md"><small>CERT.</small><span>ADsP</span></li>
+                    <li class="skill-bubble skill-bubble--cert bubble--data bubble--data-4 bubble--md"><small>CERT.</small><span>AICE<br>Associate</span></li>
+                    <li class="skill-bubble bubble--data bubble--data-5 bubble--sm"><span>Python</span></li>
+                    <li class="skill-bubble bubble--data bubble--data-6 bubble--xs"><span>Pandas</span></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </section>
+
+          <section class="placeholder-section" id="how-i-work" aria-labelledby="how-i-work-title">
+            <div class="section-content next-content">
+              <header class="next-heading">
+                <span class="next-kicker">WHAT’S NEXT</span>
+                <h2 id="how-i-work-title">What’s Next</h2>
+                <p>관심을 탐색하고, 방향을 정하고, 이번 프로젝트에서 직접 만들어봅니다.</p>
+              </header>
+
+              <div class="next-directions" aria-label="관심 분야, 진로 방향, 이번 수업의 목표">
+                <article class="next-column next-column--interests">
+                  <header class="next-column__heading">
+                    <span>01 · CURRENT INTERESTS</span>
+                    <h3>Current<br>Interests</h3>
+                    <p>EXPLORE · LEARN · CONNECT</p>
+                  </header>
+                  <div class="interest-orbit" aria-label="AI와 일상 경험을 중심으로 한 관심 분야">
+                    <i class="interest-orbit__ring" aria-hidden="true"></i>
+                    <span class="interest-bubble interest-bubble--main">AI ×<br>Everyday<br>Experience</span>
+                    <span class="interest-bubble interest-bubble--behavior">User<br>Behavior</span>
+                    <span class="interest-bubble interest-bubble--data">Data →<br>Insight</span>
+                    <span class="interest-bubble interest-bubble--build">Build &amp;<br>Test</span>
+                  </div>
+                  <p class="next-column__description">기술을 실제 사용자 경험에 연결하는 서비스에 관심이 있습니다.</p>
+                  <i class="next-bridge" aria-hidden="true"></i>
+                </article>
+
+                <article class="next-column next-column--career">
+                  <header class="next-column__heading">
+                    <span>02 · CAREER DIRECTION</span>
+                    <h3>Career<br>Direction</h3>
+                    <p>PLAN · BRIDGE · MAKE IMPACT</p>
+                  </header>
+                  <div class="career-hub" aria-label="Product Planning과 PM을 중심으로 한 진로 방향">
+                    <i class="career-hub__orbit" aria-hidden="true"></i>
+                    <span class="career-node career-node--main">Product<br>Planning / PM</span>
+                    <span class="career-node career-node--strategy"><b>Service<br>Planner</b><small>서비스 기획자</small></span>
+                    <span class="career-node career-node--tech"><b>Product<br>Manager</b></span>
+                    <span class="career-node career-node--collab"><b>Platform<br>Planner</b><small>플랫폼 기획자</small></span>
+                  </div>
+                  <p class="next-column__description">기술과 사람 사이를 연결하며 아이디어를 실제 서비스로 만드는 기획자를 목표로 합니다.</p>
+                  <i class="next-bridge" aria-hidden="true"></i>
+                </article>
+
+                <article class="next-column next-column--class">
+                  <header class="next-column__heading">
+                    <span>03 · IN THIS CLASS</span>
+                    <h3>In This<br>Class</h3>
+                    <p>ANALYZE · DISCOVER · IMPROVE</p>
+                  </header>
+                  <div class="class-intent">
+                    <strong>I want to discover<br>where the experience breaks.</strong>
+                    <p>플레이어의 이동과 행동 데이터를 통해<br>경험의 마찰 지점을 발견하고 싶습니다.</p>
+                  </div>
+
+                  <div class="behavior-map" aria-label="체류, 이동, 행동 데이터에서 마찰 지점을 찾아 플레이 경험을 개선하는 과정">
+                    <div class="behavior-signals">
+                      <div class="behavior-signal">
+                        <span class="behavior-node">
+                          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"></circle><path d="M12 8v4l3 2M12 2v2M12 20v2"></path></svg>
+                          <b>STAY</b><small>체류</small>
+                        </span>
+                        <em>어디에 오래 머무르는가?</em>
+                      </div>
+                      <div class="behavior-signal">
+                        <span class="behavior-node">
+                          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18c3-8 7-2 10-9 1-2 3-3 6-3M17 3l3 3-3 3"></path><circle cx="4" cy="18" r="2"></circle></svg>
+                          <b>MOVE</b><small>이동</small>
+                        </span>
+                        <em>어떤 경로로 이동하는가?</em>
+                      </div>
+                      <div class="behavior-signal">
+                        <span class="behavior-node">
+                          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 8 7-4 1 3 6-3 2-3-6-3 3z"></path></svg>
+                          <b>ACT</b><small>행동</small>
+                        </span>
+                        <em>어떤 행동을 반복하는가?</em>
+                      </div>
+                    </div>
+
+                    <svg class="behavior-connectors" viewBox="0 0 300 34" preserveAspectRatio="none" aria-hidden="true">
+                      <path d="M50 1 150 31M150 1v30M250 1 150 31"></path><circle cx="150" cy="31" r="3"></circle>
+                    </svg>
+
+                    <div class="friction-core">
+                      <strong>FRICTION POINTS</strong>
+                      <span>플레이 경험의 마찰 지점</span>
+                    </div>
+                    <div class="friction-keywords" aria-label="발견하고 싶은 문제">
+                      <span>인기 / 비인기 공간</span><span>방문이 적은 지형</span><span>이동 병목</span><span>반복 행동 / 정체 구간</span>
+                    </div>
+                    <i class="behavior-map__arrow" aria-hidden="true">↓</i>
+                    <div class="experience-outcome">
+                      <strong>IMPROVE THE EXPERIENCE</strong>
+                      <span>플레이 경험 개선</span>
+                      <small>공간과 행동의 패턴을 시각화해 불편한 지점을 개선 방향으로 연결</small>
+                    </div>
+                  </div>
+                  <p class="next-column__description">플레이어의 체류·이동·행동 데이터를 시각화해 비인기 공간과 이동 병목을 발견하고 개선 방향으로 연결하고 싶습니다.</p>
+                </article>
+              </div>
+
+              <footer class="next-workflow" aria-label="나의 업무 흐름">
+                <strong>MY WORKFLOW</strong>
+                <ol>
+                  <li><b>DEFINE</b><span>문제를 정의하고</span></li>
+                  <li><b>CONNECT</b><span>역할을 연결해</span></li>
+                  <li><b>BUILD</b><span>직접 만들고</span></li>
+                  <li><b>TEST</b><span>검증하며</span></li>
+                  <li><b>IMPROVE</b><span>더 나은 경험으로 발전시킵니다.</span></li>
+                </ol>
+              </footer>
+            </div>
+          </section>
+
+          <section class="placeholder-section" id="contact" aria-labelledby="contact-title">
+            <div class="section-content contact-content">
+              <header class="contact-heading">
+                <span class="contact-kicker">CONTACT</span>
+                <h2 id="contact-title"><span>LET’S BUILD</span><br><strong>SOMETHING TOGETHER.</strong></h2>
+                <p>기획과 기술 사이에서,<br>아이디어를 실제 경험으로 만드는 일을 좋아합니다.</p>
+              </header>
+
+              <div class="contact-details">
+                <section class="contact-beyond" aria-labelledby="beyond-work-title">
+                  <span>01 · OUTSIDE THE PROJECT</span>
+                  <h3 id="beyond-work-title">BEYOND WORK</h3>
+                  <ul>
+                    <li><i aria-hidden="true"></i>Freediving</li>
+                    <li><i aria-hidden="true"></i>Photography</li>
+                    <li><i aria-hidden="true"></i>Travel</li>
+                  </ul>
+                </section>
+
+                <section class="contact-hello" aria-labelledby="say-hello-title">
+                  <span>02 · GET IN TOUCH</span>
+                  <h3 id="say-hello-title">SAY HELLO</h3>
+                  <address>
+                    <a href="mailto:jjooee0729@gmail.com"><i aria-hidden="true">✉</i><span>jjooee0729@gmail.com</span></a>
+                    <a href="tel:+821058921558"><i aria-hidden="true">☎</i><span>010-5892-1558</span></a>
+                    <a href="https://www.instagram.com/a_pic_hj/" target="_blank" rel="noreferrer"><i aria-hidden="true">◎</i><span>@a_pic_hj</span></a>
+                  </address>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
